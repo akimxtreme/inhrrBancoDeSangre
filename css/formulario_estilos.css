@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background:#CCC;
+	}
+div.contenedor {
+	font-family: 'Arial';
+	width: 955px;
+	height: auto;
+	margin: 0 auto;
+	font-size:12px;
+
+	}
+	
+/******************************************************************************************************/
+                     /* Estilos Formulario Banco de Sangre */
+/******************************************************************************************************/
+
+h1.banco_sangre {
+	text-align: center;
+	font-size:30px;
+	}
+	
+div.solicitud	{
+	float:right;
+	border:#000 solid 1px;
+	margin: 5px 0px 0px 0px;
+	width:200px;
+	height: auto;
+	text-align:center;
+	border-radius: 4px;
+	padding: 5px 5px 5px 5px;
+	background:#FFF;
+	}
+	
+div.fecha{
+	float:right;
+	border:#000 solid 1px;
+	margin: 5px 5px 0px 0px;
+	width: auto;
+	height: auto;
+	text-align:center;
+	border-radius: 4px;
+	padding: 5px 5px 5px 5px;
+	background:#FFF;
+	}
+h2.banco_sangre {
+	text-align:center;
+	font-size:16px;
+	margin: 2px 2px 2px 2px;
+	}
+	
+div.contenedor_a {
+	float: right;
+	border:  #FFF solid 2px;
+	width: 950px;
+	height: auto;
+	margin: 10px 0px 5px 0px;
+	padding: 5px 0px 10px 0px;
+	border-radius: 20px;
+	border: #666 solid 1px;
+	background: #FFF;
+	color:#666;
+	font-size:12px;
+	font-family:'Arial';
+
+	
+	}
+	
+h3.banco_sangre {
+	margin:5px 5px 5px 5px;
+	color:#004393;
+	font-size:16px;
+	}
+h4.contenedor_a {
+	width:650px;
+	margin: 1px 3px 0px 5px;
+	font-size:14px;
+	color:#204D99;
+		}
+
+input.contenedor_a_radio {
+	float:left;
+	margin: 5px 0px 0px 30px;
+	}
+	
+otros_error {
+	float:left;
+	margin: 5px 0px 0px 30px;
+	background:#F30;
+	}
+
+otros_especifique {
+	
+	}
+	
+p.contenedor_a {
+	float:left;
+	margin: 4px 3px 0px 3px;
+}
+
+input.contenedor_a {
+	float:left;
+	height:25px;
+	border:#666 solid 1px;
+	border-radius: 4px;
+	background:#CCC;
+	text-transform: capitalize;
+	}
+	
+input.error {
+	height:25px;
+	border: #F30 dashed 1px;
+	border-radius: 4px;
+	background: #F9C;
+	}
+
+.enfoco {
+	background: #94AFD5;
+	border: #06C solid 1px;
+	height:25px;
+	color: #333;
+	border-radius: 4px;
+	text-transform: capitalize;
+	}
+	
+span.contenedor_a {
+	
+	float: left;
+	margin: 5px 2px 0px 2px;
+	padding: 2px 2px 2px 2px;}
+label.contenedor_a {
+	float:left;
+	margin: 5px 2px 0px 0px;
+	font-size:13px;
+	font-weight:bold;
+	color:#204D99;
+	}
+	
+textarea.text_area {
+	height: 25px;
+	width: 310px;
+	border:#666 solid 1px;
+	border-radius: 4px;
+	background:#CCC;
+	font-size:12px;
+	text-transform: capitalize;
+}
+
+textarea.text_area_enfoco {
+	height: 25px;
+	width: 310px;
+	border-radius: 4px;
+	background: #94AFD5;
+	border: #06C solid 1px;
+	font-size:12px;
+	text-transform: capitalize;
+	color: #333;
+}
+
+input.otros {
+	float:left;
+	margin: 0px 200px 0px 0px;
+	border:#666 solid 1px;
+	border-radius: 4px;
+	background:#CCC;
+}
+
+input.otros_enfoco{
+	float:left;
+	margin: 0px 200px 0px 0px;
+	background: #94AFD5;
+	border: #06C solid 1px;
+	border-radius: 4px;
+	color: #333;
+	
+}
+
+/******************************************************************************************************/
+                     /* Estilos CONTENEDOR C */
+/******************************************************************************************************/
+
+input.otros_c {
+	float:left;
+	margin: 0px 0px 0px 0px;
+	border:#666 solid 1px;
+	border-radius: 4px;
+	background:#CCC;
+	height: 25px;
+	}
+
+h5.contenedor_c {
+	float:left;
+	margin: 3px 3px 0px 5px;
+	font-size:13px;
+	
+	}
+	
+
+
+h4.contenedor_c {
+	width:940px;
+	float:left;
+	margin: 10px 0px 10px 5px;
+	font-size:14px;
+	}	
+
+input.contenedor_c_radio {
+	float:left;
+	margin: 5px 0px 0px 10px;
+	}
+
+/******************************************************************************************************/
+                     /* Estilos CONTENEDOR D */
+/******************************************************************************************************/
+
+input.contenedor_d {
+	float:left;
+	}
+	
+div.contenedor_d {
+	float:left;
+	width:945px;
+	margin: 5px 0px 5px 5px;
+	font-weight: bold;
+	}
+div.contenedor_d_1{
+	float:left;
+	margin: 5px 5px 0px 25px;
+	}
+
+div.d {
+	width:550px;
+	background:#000;
+	}
+strong {
+	font-weight:normal;
+	}

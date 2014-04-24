@@ -1,0 +1,745 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body.bs {
+	margin: 0 auto;
+	background:#F9F9F9;
+	font-family:'Arial';
+	}
+div.contenedor {
+	width: 955px;
+	height:auto;
+	margin: 0 auto;
+	color:#333;
+	font-family: "Arial";
+	}
+
+div.encabezado{
+	float:left;
+	background: url(../imagenes/banner_sup.png) no-repeat;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius : 4px;
+	width: 100%;
+	height: 181px;
+	}
+
+h1 {
+	float:left;
+	width: 100%;
+	font-family:'Arial';
+	font-weight:normal;
+	font-size:30px;
+	padding: 10px 0px 10px 0px;
+	text-align:center;
+	background:#7FA4CB;
+	color:#FFF;
+	margin: 5px 0px 10px 0px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius : 4px;
+	box-shadow: 2px 2px 2px 2px #333;
+   -webkit-box-shadow: 2px 2px 2px 2px #333;
+   -moz-box-shadow: 2px 2px 2px 2px #333;
+	}
+	
+h2 {
+	float:left;
+	width: 100%;
+	font-family:'Arial';
+	font-weight:normal;
+	font-size:20px;
+	text-align:center;
+	margin: 4px 0px 0px 0px;
+	padding: 5px 0px 5px 0px;
+	background:#7FA4CB;
+	color:#FFF;
+	border: #7FA4CB solid 1px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	}
+	
+h3 {
+	float:left;
+	width: 100%;
+	font-family:'Arial';
+	text-align:center;
+	font-weight:normal;
+	font-size:17px;
+	margin: 2px 0px 2px 0px;
+	padding: 10px 0px 10px 0px;
+	background:#E1EAF2;
+	color: #666;
+	border-bottom: #7FA4CB solid 1px;
+	border-top: #7FA4CB solid 1px;
+	}
+
+form#datos_solicitud {
+	width: 100%;
+	margin:auto;
+	}
+
+
+div.bs {
+	float:left;
+	width: 100%;
+	height:auto;
+	border:#7FA4CB solid 1px;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	}
+	
+p.usuario{
+	float:left;
+	font-size:12px;
+	font-weight:bold;
+	height: 14px;
+	background:#FFF;
+	color:#7FA4CB;
+	border:#7FA4CB dashed 2px;
+	margin:3px;
+	padding:3px;
+	border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius : 4px;
+
+	}
+	
+/****************************************/
+/****************************************/
+/****************************************/	
+
+h3.bs_java {
+	float:left;
+	width: 100%;
+	text-align:center;
+	font-family:'Arial';
+	font-weight:normal;
+	font-size:16px;
+	margin: 0px 0px 4px 0px;
+	padding: 4px 0px 4px 0px;
+	background:#E1EAF2;
+	color: #666;
+	border-bottom: #7FA4CB solid 1px;
+	border-top: #7FA4CB solid 1px;
+	}
+
+	
+div.bs_java {
+	float:left;
+	width: 230px;
+	height:auto;
+	margin: 20px 5px 0px 0px;
+	padding: 4px;
+	border:#7FA4CB solid 2px;
+	border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius : 4px;
+
+	}
+	
+div.bs_java_admin {
+	float:left;
+	width: 170px;
+	height:auto;
+	margin: 20px 5px 0px 0px;
+	padding: 4px;
+	border:#7FA4CB solid 2px;
+	border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius : 4px;
+
+	}
+div.bas_j{
+	float:left;
+	margin: 5px;
+	}
+	
+button.bs_java{
+	float: right;
+	border:#7FA4CB solid 2px;
+	border-radius: 5px;
+	margin: 2px 15px 0px 0px;
+	}
+	
+p.bs_java {
+	float:left;
+	border: #000 dotted 1px;
+	font-size:12px;
+	padding: 1px 1px 1px 1px;
+	margin: 1px 1px 1px 2px;;
+
+	}
+	
+	
+a:link.bs_java {
+	font-size:12px;
+	float:left;
+	color:#000;
+	border: #FFF dotted 1px;
+	text-decoration:none;
+}
+
+a:visited.bs_java {
+	color:#000;
+	border: #FFF dotted 1px;
+	text-decoration:none;
+}
+
+a:active.bs_java {
+	color:#000;
+	border: #FFF dotted 1px;
+	text-decoration:none;
+}
+
+a:hover.bs_java {
+	color:#F3F;
+	border: #F3F dotted 1px;
+	text-decoration:none;
+}
+
+div.bs_java_2 {
+	float: right;
+	width: 690px;
+	height: auto;
+	margin: 20px 0px 0px 0px;
+	padding: 4px;
+	border:#7FA4CB solid 2px;
+	border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius : 4px;
+
+	font-size:14px;
+	text-align:center;
+	visibility:collapse;
+	}
+	
+div.bs_java_3 {
+	float:left;
+	margin: 3px 0px 5px 120px;
+	width: 690px;
+	padding: 4px;
+	border:#7FA4CB solid 2px;
+	border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius : 4px;
+	font-size:14px;
+	text-align:center;
+	
+	}
+	
+a:link.bs_java_2 {
+	float:left;
+	color:#000;
+	text-decoration:none;
+	background:#7FA4CB;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+a:visited.bs_java_2 {
+	color:#000;
+	text-decoration:none;
+}
+
+a:active.bs_java_2 {
+	color:#000;
+	text-decoration:none;
+}
+
+a:hover.bs_java_2 {
+	color:#FFF;
+	text-decoration:none;
+}
+/****************************************/
+/****************************************/
+/****************************************/
+
+
+	
+span {
+	float:left;
+	width: 225px;
+	
+	height: 73px;
+	padding:  0px;
+	}
+/************* instructivo *************/
+span.instructivo {
+	float:left;
+	width: 510px;
+	height: auto;
+	height: 73px;
+	}
+	
+h2.instructivo {
+	float:left;
+	width: 510px;
+	font-family:'Arial';
+	font-weight:normal;
+	font-size:20px;
+	margin: 6px;
+	padding: 4px;
+	color:#7FA4CB;
+	background:none;
+	}
+
+/*************** ESTILOS RADIO **************/
+
+span.direccion{
+	float:left;
+	width: 930px;
+	height:73px;
+	border:#000 solid 1px;
+	}
+	
+label.direccion {
+	float:left;
+	font-size:16px;
+	text-align:center;
+	margin: 2px;
+	font-style:italic;
+	}	
+
+span.radio {
+	float:left;
+	width: 733px;
+	height:73px;
+	
+	}
+	
+span.sub_radio {
+	float:left;
+	width:auto;
+	height: auto;
+	}
+
+label.radio {
+	float:left;
+	font-size:15px;
+	width:955px;
+	margin: 2px;
+}
+
+input.radio {
+	float:left;
+	}
+	
+p.radio {
+	float:left;
+	font-size:12px;
+	font-weight:normal;
+	color:#333;
+	margin: 2px;
+	}
+span.obligatorio {
+	float:left;
+	width: 200px;
+	height:auto;
+	}
+/***************************************/
+label.bs {
+	float:left;
+	font-size:15px;
+	text-align:center;
+	margin: 2px;
+	}
+input.bs {
+	float:left;
+	margin: 0px;
+	width: 200px;
+	height:18px;
+	border:#CCC solid 1px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius : 4px;
+	font-weight:bold;
+	font-size:12px;
+	background:#E1EAF2;
+	color: #333;
+	
+	}
+
+textarea.bs {
+	float:left;
+	font-family:'Arial';
+	margin: 3px;
+	width: 95%;
+	height:50px;
+	border:#CCC solid 1px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius : 4px;
+	font-weight:bold;
+	font-size:12px;
+	background:#E1EAF2;
+	color: #333;
+	
+	}
+
+input.bs_2 {
+	float:left;
+	width: 200px;
+	background:#666;
+	height:18px;
+	border: #999 solid 1px;
+	background:#F3DA1F;
+	font-weight:bold;
+	font-size:12px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius : 4px;
+	color: #000;
+	
+	}
+	
+select.bs {
+	float:left;
+	width: 200px;
+	background:#666;
+	height:22px;
+	border:#CCC solid 1px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius : 4px;
+	background:#E1EAF2;
+	color:#000;
+	padding: 2px;
+	font-family: "Arial";
+	font-size:14px;
+	}
+	
+option.bs_dir {
+	float:left;
+	width: 200px;
+	background:#666;
+	height:25px;
+	border:#FFF solid 2px;
+	border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius : 4px;
+	background:#E1EAF2;
+	color:#666;
+	padding: 2px;
+	font-family: "Arial";
+	font-size:14px;
+	}
+select.bs{
+	float:left;
+	}
+
+
+
+p.obligatorio {
+	float:left;
+	border: #F9F9F9 dotted 1px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius : 4px;
+	text-align:center;
+	color:#666;
+	background:#9CF;
+	font-family: 'Arial';
+	font-weight:bold;
+	font-size:10px;
+	padding: 1px 0px 1px 0px;
+	width:200px;
+	height: 18px;
+	margin: 0px 0px 1px 0px;
+
+	}
+
+p.obligatorio_radio {
+	float:left;
+	border: #F9F9F9 dotted 1px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius : 4px;
+	text-align:center;
+	color:#666;
+	background:#9CF;
+	font-family: 'Arial';
+	font-weight:bold;
+	font-size:10px;
+	padding: 1px 0px 1px 0px;
+	width:200px;
+	height: 18px;
+	margin: 0px 0px 1px 0px;
+	visibility:collapse;
+
+	}
+	
+	#oculto {
+		visibility:collapse;
+		}
+
+
+/*************** ESTILOS UD - Unidades Transfusionales **************/
+span.ud {
+	float:left;
+	width: 45%;
+	border:#E1EAF2 solid 2px;
+	border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius : 4px;
+	height:auto;
+	margin: 3px;
+	}
+	
+span.ud_obligatorio {
+	float:left;
+	width: 300px;
+	height:auto;
+	}
+/***************************************/
+span.bs_otros{
+	float:left;
+	width:200px;
+	}
+input.bs_otros {
+	float:left;
+	width: 200px;
+	background:#666;
+	height:18px;
+	border:#FFF solid 2px;
+	border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius : 4px;
+	background:#E1EAF2;
+	color:#666;
+	padding: 2px;
+	visibility:collapse;
+	}
+	
+button.enviar {
+	float:right;
+	width:100px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 5px;
+	}
+	
+	
+span.bs_pregunta {
+	width:900px;
+	height:auto;	
+	float:left;
+	}
+	
+span#pregunta{
+	
+	}
+	
+
+span.pregunta{
+	float:left;
+	visibility:hidden;
+	width:auto;
+	height: auto;
+	}
+	
+div.admin {
+	float:left;
+	width: 955px;
+	margin: 0px 0px 0px 0px;
+	}
+span.admin{
+	background:#466AB7;
+	color:#FFF;
+	float:left;
+	margin: 0px 5px 1px 2px;
+	border-top-left-radius: 5px;
+	border-top-right-radius:5px;
+	text-align:center;
+	font-size:18px;
+	width: 205px;
+	height:25px;
+}
+
+input.admin {
+	float:left;
+	width: 200px;
+	background:#666;
+	height:18px;
+	border:#FFF solid 2px;
+	border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius : 4px;
+	background:#E1EAF2;
+	color:#666;
+	padding: 2px;
+	}
+
+form.admin {
+	margin: 3px 0px 0px 0px;
+	border:#466AB7 dotted 2px;
+	width:auto;
+	height: 0 auto;
+	
+	}
+span.estatus {
+	float:left;
+	width: 300px;
+}
+
+input.estatus {
+	float:left;
+}
+
+input.img {
+	margin: 0px 2px 0px 2px;
+	border: #069 solid 1px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius : 4px;
+	box-shadow: 1px 1px 1px 1px #CCC;
+   -webkit-box-shadow: 1px 1px 1px 1px #CCC;
+   -moz-box-shadow: 1px 1px 1px 1px #CCC;
+	}
+
+img.contrasenia_generada{
+	visibility:hidden;
+	}
+	
+img.contrasenia_generada_2{
+	visibility:visible;
+	}
+img.captcha {
+	float:left;
+	width: 100px;
+	height: 35px;
+	border-radius: 5px;
+	margin: 15px 2px 0px 0px;
+	border:#000 solid 1px;
+	}
+img.captcha_2 {
+	float:left;
+	border-radius: 5px;
+	margin: 22px 2px 0px 4px;
+	}
+
+strong.bs_form{
+	float:left;
+	color:#F90;
+	font-size:15px;
+	}
+	
+/*ESTILOS PARA LA CONSULTA DE LA PLANILLA*/	
+
+div.consulta {
+	float:left;
+	width: 100%;
+	font-size:12px;
+	font-family:'Arial';
+	margin: 0px;
+	}
+	
+div.sub_consulta_1 {
+	float:left;
+	width: 50%;
+	font-size:12px;
+	font-family:'Arial';
+	margin: 0px;
+	color:#666;
+	}
+div.sub_consulta_2 {
+	float:left;
+	width: 50%;
+	font-size:12px;
+	font-family:'Arial';
+	margin: 0px;
+	color:#666;
+	}
+strong.consulta {
+	font-weight:bold;
+	font-size:12px;
+	color: #333;
+	margin: 0px 3px 0px 0px;
+	}
+p.consulta {
+	text-align:justify;
+	color: #000;
+	font-weight:normal;
+	margin:2px 5px 8px 5px;
+	}
+h4.consulta{
+	font-weight:bold;
+	text-align:center;
+	font-size:24px;
+	margin:0px;
+	background:#CCC;
+	}
+
+h2#titulo_establecimiento_asistencial {
+	position: absolute;
+	visibility:hidden;
+	width: 0px;
+	}
+
+div#establecimiento_asistencial {
+	position: absolute;
+	visibility:hidden;
+	width: 0px;
+	}
+
+div.usuario {
+	float:left;
+	width: 100%;
+	margin: 1px;
+	}
+
+input.opcion_otros {
+	visibility: hidden;
+	position:absolute;
+	float:left;
+	margin: 0px;
+	width: 200px;
+	height:18px;
+	border:#CCC solid 1px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius : 4px;
+	font-weight:bold;
+	font-size:12px;
+	background:#E1EAF2;
+	color:#666;
+}
+span.opcion_otros {
+	float:left;
+	visibility: hidden;
+	position:absolute;
+	float:left;
+	margin: 1px;
+	width: auto;
+	height:auto;
+	border:#CCC solid 1px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius : 4px;
+	font-size:12px;
+	
+}
+
+.boton{
+	float:right;
+	background:#7FA4CB;
+	color:#FFF;
+	width: auto;
+	height: 25px;
+	font-size:11px;
+	font-weight:bold;
+	margin: 4px 80px 5px 5px;
+	border:#CCC solid 1px;
+	border-radius: 8px;
+	}
+#pregunta{
+	text-align:justify;
+	padding: 2px;}
